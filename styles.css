@@ -1,11 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chivo Mono', monospace;
+}
+
 body{
   display: grid;
   grid-template-columns: .45fr 2fr;
-  grid-template-rows: 100vw;
+  grid-template-rows: 100vh;
 }
 nav{
   background-color: red;
 }
 main{
   background-color: blue;
+}
+menu{
+  list-style-type: none;
 }
