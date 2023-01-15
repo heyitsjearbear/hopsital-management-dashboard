@@ -55,6 +55,7 @@ header{
 }
 .profile-container{
   display: flex;
+  justify-content: center;
 }
 .profile-greeting{
   display: flex;
@@ -70,7 +71,7 @@ header{
   height: 23px;
 }
 .user{
-  margin-left:20px;
+  margin-left:10px;
   align-self: center;
 }
 .bell-icon{
@@ -78,4 +79,5 @@ header{
 }
 .greeting{
   align-self: center;
+  margin-left: 10px;
 }
